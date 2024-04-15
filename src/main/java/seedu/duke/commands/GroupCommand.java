@@ -76,6 +76,10 @@ public class GroupCommand {
         currentGroup.get().addMember(memberName);
     }
 
+
+
+
+
     //@@author avrilgk
 
     /**

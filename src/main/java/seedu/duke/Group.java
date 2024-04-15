@@ -168,6 +168,9 @@ public class Group {
         }
     }
 
+    public static void removeGroup(String groupName) {
+        groups.remove(groupName);
+    }
     /**
      * Retrieves the current group.
      *
@@ -327,6 +330,7 @@ public class Group {
         }
     }
 
+
     /**
      * Calculates the balance between two users.
      *
@@ -413,7 +417,4 @@ public class Group {
         return total;
     }
 
-    public static void removeGroup(String groupName) {
-        groups.remove(groupName);
-    }
 }
